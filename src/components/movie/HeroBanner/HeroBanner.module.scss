@@ -1,0 +1,122 @@
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: clamp(32rem, 78vh, 52rem);
+    margin-top: -5.25rem;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.backdropZoom {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(20, 20, 20, 0.94) 0%,
+            rgba(20, 20, 20, 0.78) 30%,
+            rgba(20, 20, 20, 0.38) 58%,
+            rgba(20, 20, 20, 0.15) 100%
+        ),
+        linear-gradient(180deg, rgba(20, 20, 20, 0.28) 0%, rgba(20, 20, 20, 0.08) 32%, #141414 100%);
+}
+
+.contentWrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    min-height: inherit;
+    padding-top: 7rem;
+    padding-bottom: 11rem;
+}
+
+.content {
+    max-width: 40rem;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.title {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(2.8rem, 7vw, 5.8rem);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+}
+
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    color: #d1d5db;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.description {
+    display: -webkit-box;
+    max-width: 38rem;
+    margin: 1.2rem 0 0;
+    overflow: hidden;
+    color: #e5e7eb;
+    font-size: clamp(1rem, 1.7vw, 1.1rem);
+    line-height: 1.8;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+    .banner {
+        min-height: 70vh;
+        margin-top: -8.1rem;
+    }
+
+    .contentWrap {
+        align-items: flex-end;
+        padding-top: 8.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .meta {
+        gap: 0.75rem;
+    }
+}

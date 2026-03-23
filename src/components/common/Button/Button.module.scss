@@ -1,0 +1,67 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 3px;
+}
+
+.icon {
+  display: inline-flex;
+  font-size: 1rem;
+}
+
+.primary {
+  background: #e50914;
+  color: #ffffff;
+  box-shadow: 0 16px 32px rgba(229, 9, 20, 0.25);
+}
+
+.primary:hover {
+  background: #f6121d;
+}
+
+.secondary {
+  background: rgba(109, 109, 110, 0.7);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+
+.secondary:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(145, 145, 145, 0.75);
+}
+
+.small {
+  min-height: 2.4rem;
+  padding: 0.45rem 0.95rem;
+  font-size: 0.85rem;
+}
+
+.medium {
+  min-height: 2.9rem;
+  padding: 0.75rem 1.3rem;
+  font-size: 0.95rem;
+}
+
+.large {
+  min-height: 3.3rem;
+  padding: 0.95rem 1.65rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,24 @@
+.home {
+  background: #141414;
+  color: #fff;
+}
+
+.rowsWrap {
+  position: relative;
+  z-index: 2;
+  margin-top: -8rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 991px) {
+  .rowsWrap {
+    margin-top: -5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .rowsWrap {
+    margin-top: -2.5rem;
+    padding-bottom: 3rem;
+  }
+}

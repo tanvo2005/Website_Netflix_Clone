@@ -1,0 +1,9 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="48" fill="#06161B"/>
+  <circle cx="616" cy="223" r="180" fill="#2DD4BF" fill-opacity="0.35"/>
+  <circle cx="180" cy="1028" r="310" fill="#0F766E" fill-opacity="0.45"/>
+  <path d="M0 781C173 674 349 664 532 733C639 773 728 832 800 920V1200H0V781Z" fill="#0A1016"/>
+  <text x="72" y="178" fill="white" font-family="Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="8">ECHO</text>
+  <text x="72" y="254" fill="#99F6E4" font-family="Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="8">HARBOR</text>
+  <text x="72" y="1048" fill="#CCFBF1" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">MYSTERY DRAMA</text>
+</svg>

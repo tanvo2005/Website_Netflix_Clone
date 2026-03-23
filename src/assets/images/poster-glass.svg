@@ -1,0 +1,9 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="48" fill="#0B1022"/>
+  <circle cx="585" cy="208" r="182" fill="#A78BFA" fill-opacity="0.38"/>
+  <circle cx="252" cy="922" r="286" fill="#4338CA" fill-opacity="0.42"/>
+  <path d="M0 764C142 676 311 647 470 708C594 756 704 841 800 976V1200H0V764Z" fill="#111827"/>
+  <text x="64" y="176" fill="#DDD6FE" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="8">GLASS</text>
+  <text x="64" y="248" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="8">KINGDOM</text>
+  <text x="64" y="1040" fill="#EDE9FE" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">FANTASY EPIC</text>
+</svg>

@@ -1,0 +1,39 @@
+.notFound {
+  display: grid;
+  place-items: center;
+  min-height: 70vh;
+  padding: 4rem 0;
+}
+
+.panel {
+  max-width: 38rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 1.75rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 26px 56px rgba(0, 0, 0, 0.3);
+}
+
+.code {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #e50914;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+.panel h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2rem, 5vw, 3.8rem);
+}
+
+.panel p {
+  margin: 1rem auto 2rem;
+  max-width: 30rem;
+  color: rgba(255, 255, 255, 0.66);
+  line-height: 1.7;
+}

@@ -1,0 +1,9 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="48" fill="#0A0A12"/>
+  <circle cx="614" cy="196" r="182" fill="#EC4899" fill-opacity="0.36"/>
+  <circle cx="228" cy="918" r="282" fill="#06B6D4" fill-opacity="0.34"/>
+  <path d="M0 748C172 676 318 681 478 746C602 796 712 878 800 986V1200H0V748Z" fill="#13131A"/>
+  <text x="68" y="176" fill="#FBCFE8" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="8">NEON</text>
+  <text x="68" y="250" fill="white" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="8">REVENANT</text>
+  <text x="68" y="1044" fill="#CFFAFE" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">FUTURISTIC NOIR</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="48" fill="#140A11"/>
+  <circle cx="604" cy="182" r="188" fill="#F59E0B" fill-opacity="0.28"/>
+  <circle cx="212" cy="950" r="296" fill="#BE185D" fill-opacity="0.38"/>
+  <path d="M0 780C164 713 317 707 462 746C592 781 705 851 800 956V1200H0V780Z" fill="#1F1020"/>
+  <text x="70" y="184" fill="#FBCFE8" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="8">VELVET</text>
+  <text x="70" y="256" fill="white" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="8">HORIZON</text>
+  <text x="70" y="1044" fill="#FDE68A" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">ROMANCE DRAMA</text>
+</svg>
